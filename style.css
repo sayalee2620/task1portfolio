@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color:rgb(40, 9, 40);
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align navigation items to the right */
+    gap: 20px; /* Add space between the navigation items */
+    margin: 20px 0 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#about {
+    background-color: #279aa4;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #1a0527;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #d9ee96;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#projects .project {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #a789e5;
+    border-radius: 5px;
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #95e798;
+    color: rgb(9, 4, 4);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #b1c3b2;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: rgb(210, 172, 34);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
